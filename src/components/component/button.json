@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Label": {
+      "type": "string"
+    },
+    "AccessibilityText": {
+      "type": "text"
+    }
+  }
+}

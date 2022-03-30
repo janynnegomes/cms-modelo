@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_components",
+  "info": {
+    "displayName": "Component",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    }
+  }
+}

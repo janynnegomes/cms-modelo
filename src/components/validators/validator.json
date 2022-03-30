@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_validators_validators",
+  "info": {
+    "displayName": "Validator",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "Key": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    }
+  }
+}

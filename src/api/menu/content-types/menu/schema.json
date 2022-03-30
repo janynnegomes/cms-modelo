@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menus"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Hint": {
+      "type": "string"
+    },
+    "Path": {
+      "type": "string"
+    },
+    "IconName": {
+      "type": "string"
+    }
+  }
+}

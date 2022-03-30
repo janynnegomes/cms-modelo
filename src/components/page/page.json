@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_pages",
+  "info": {
+    "displayName": "Page",
+    "icon": "chalkboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Metadata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-metadata.component-meta-data"
+    }
+  }
+}

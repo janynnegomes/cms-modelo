@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_form_field_inputs",
+  "info": {
+    "displayName": "FormFieldInput",
+    "icon": "keyboard"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Placeholder": {
+      "type": "string"
+    },
+    "Label": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Validators": {
+      "displayName": "Validator",
+      "type": "component",
+      "repeatable": true,
+      "component": "validators.validator"
+    }
+  }
+}
