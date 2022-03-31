@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_settings_monitoring_data",
+  "info": {
+    "displayName": "Monitoring Data",
+    "icon": "broom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "EventAction": {
+      "type": "string"
+    },
+    "EventLabel": {
+      "type": "string"
+    },
+    "EventCategory": {
+      "type": "string"
+    }
+  }
+}

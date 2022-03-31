@@ -10,7 +10,7 @@
     "Metadata": {
       "type": "component",
       "repeatable": true,
-      "component": "component-metadata.component-meta-data"
+      "component": "settings.component-meta-data"
     }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_component_items",
+  "info": {
+    "displayName": "Item",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Ilustration": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

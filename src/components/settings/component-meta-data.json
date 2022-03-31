@@ -1,8 +1,9 @@
 {
   "collectionName": "components_component_metadata_component_meta_data",
   "info": {
-    "displayName": "ComponentMetaData",
-    "icon": "border-all"
+    "displayName": "MetaData",
+    "icon": "border-all",
+    "description": ""
   },
   "options": {},
   "attributes": {

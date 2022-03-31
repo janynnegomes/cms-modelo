@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_component_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "layer-group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "text"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Ilustrations": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.item"
+    }
+  }
+}

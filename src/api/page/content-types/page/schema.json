@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Page": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.page"
-    },
     "Title": {
       "type": "string"
     },
@@ -26,12 +21,27 @@
     "Components": {
       "type": "dynamiczone",
       "components": [
-        "component-metadata.component-meta-data",
         "component.button",
-        "component.component",
         "component.form-field-input",
-        "validators.validator"
+        "component.item",
+        "component.section",
+        "component.simple-list"
       ]
+    },
+    "Type": {
+      "type": "dynamiczone",
+      "components": [
+        "page.error-page",
+        "page.page"
+      ]
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Monitoring": {
+      "type": "component",
+      "repeatable": true,
+      "component": "settings.monitoring-data"
     }
   }
 }

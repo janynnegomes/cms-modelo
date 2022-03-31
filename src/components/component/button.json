@@ -2,7 +2,8 @@
   "collectionName": "components_component_buttons",
   "info": {
     "displayName": "Button",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,11 @@
     },
     "AccessibilityText": {
       "type": "text"
+    },
+    "Monitoring": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.monitoring-data"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_simple_lists",
+  "info": {
+    "displayName": "SimpleList",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.item"
+    }
+  }
+}

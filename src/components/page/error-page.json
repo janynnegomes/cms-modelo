@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_error_pages",
+  "info": {
+    "displayName": "ErrorPage",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "Message": {
+      "type": "richtext"
+    },
+    "ErrorCode": {
+      "type": "string"
+    },
+    "Illustration": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
