@@ -52,3 +52,6 @@ npm run start
 #### Validators
 - Validator
 
+# Contato
+
+Para tirar dúvidas sobre o modelo ou sugestões de componentes, me mande uma mensagem no meu instagram dev @janynnegomesdev ou  abra uma issue aqui mesmo :)
