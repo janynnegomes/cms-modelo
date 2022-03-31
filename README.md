@@ -6,7 +6,7 @@ Esse é um **monorepo** que contém um modelo de referência para criação de u
 
 O projeto já fornece uma estrutura básica de páginas, menu e componentes de formulário, bem como configuração de conteúdo para acessibilidade e rastreio de eventos para usar em serviços como Google Analytics.
 
-Para utlizar localmente o projeto você precisa acionar a [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) que torna tudo muito mais simples.
+Para utilizar localmente o projeto você precisa acionar a [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) que torna tudo muito mais simples.
 
 ### `develop`
 
