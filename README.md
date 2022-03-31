@@ -1,62 +1,54 @@
-<<<<<<< HEAD
-# 🚀 Getting started with Strapi
+# 🚀 Site CMS Modelo - baseado no CMS Strapi
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+Esse é um **monorepo** que contém um modelo de referência para criação de um servidor de conteúdos(textos, imagens e vídeos) a ser usado como gestor de conteúdo para aplicações corporativas.
+
+
+
+O projeto já fornece uma estrutura básica de páginas, menu e componentes de formulário, bem como configuração de conteúdo para acessibilidade e rastreio de eventos para usar em serviços como Google Analytics.
+
+Para utlizar localmente o projeto você precisa acionar a [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) que torna tudo muito mais simples.
 
 ### `develop`
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+Inicie sua aplicação com o modo autoReload e recursos de administrador de estruturas ativados. [Saiba mais](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
 ```
 npm run develop
-# or
-yarn develop
 ```
+Para gerenciar a estrutura do projeto🚀, use o painel administrativo em http://localhost:1337/admin
+
+Para consumir os conteúdos via API, utilize o endereço http://localhost:1337/api
+
+Exemplo:
+Faça um request GET http://localhost:1337/api/pages/?populate=deep para listar todas as páginas e seus componentes.
+
+É necessário enviar em cada request um cabeçalho ```Authorization Bearer Token``` para autorização de consumo com o token de API, a ser gerado no painel administrativo no menu ```Settings->Global Settings->API Tokens```.
+
 
 ### `start`
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+Inicie sua aplicação com o modo autoReload e recursos de administrador de estruturas desativados. [Saiba mais](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
 ```
 npm run start
-# or
-yarn start
 ```
 
-### `build`
+#### Componentes
 
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+- Button
+- FormFieldInput
+- Item
+- Section
+- SimpleList
 
-```
-npm run build
-# or
-yarn build
-```
+#### Tipos de páginas
+- Page
+- ErrorPage
 
-## ⚙️ Deployment
+#### Settings
+- MetaData
+- MonitoringData
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+#### Validators
+- Validator
 
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
-=======
-# cms-modelo
-Modelo de uma estrutura de conteúdo para aplicações corporativas utilizando o CMS Strapi
->>>>>>> main
